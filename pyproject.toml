@@ -1,0 +1,21 @@
+[project]
+name = "pipeline-brasileirao"
+version = "0.1.0"
+description = "pipeline ETL e ML das partidas do brasileirao"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas (>=2.3.1,<3.0.0)",
+    "selenium (>=4.34.2,<5.0.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "scikit-learn (>=1.7.1,<2.0.0)",
+    "requests (>=2.32.4,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
